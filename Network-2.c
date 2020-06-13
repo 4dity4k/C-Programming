@@ -30,4 +30,5 @@ int main()
         }
         address = address->ifa_next;
     }
+    freeifaddrs(addresses);
 }
